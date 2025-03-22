@@ -1,0 +1,28 @@
+<BookShelf>
+    <Book>
+        <title>Book One</title>
+        <publishedYear>2001</publishedYear>
+        <numberOfPages>300</numberOfPages>
+        <authors>
+            <author>Author One</author>
+            <author>Author Two</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>Book Two</title>
+        <publishedYear>2005</publishedYear>
+        <numberOfPages>450</numberOfPages>
+        <authors>
+            <author>Author Three</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>Book Three</title>
+        <publishedYear>2010</publishedYear>
+        <numberOfPages>500</numberOfPages>
+        <authors>
+            <author>Author Four</author>
+            <author>Author Five</author>
+        </authors>
+    </Book>
+</BookShelf>

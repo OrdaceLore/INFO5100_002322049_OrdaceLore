@@ -1,0 +1,24 @@
+{
+    "BookShelf": {
+        "Books": [
+            {
+                "title": "Book One",
+                "publishedYear": 2001,
+                "numberOfPages": 300,
+                "authors": ["Author One", "Author Two"]
+            },
+            {
+                "title": "Book Two",
+                "publishedYear": 2005,
+                "numberOfPages": 450,
+                "authors": ["Author Three"]
+            },
+            {
+                "title": "Book Three",
+                "publishedYear": 2010,
+                "numberOfPages": 500,
+                "authors": ["Author Four", "Author Five"]
+            }
+        ]
+    }
+}
