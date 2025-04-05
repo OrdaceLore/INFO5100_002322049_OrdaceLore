@@ -2,11 +2,12 @@
     "java.project.sourcePaths": [
         "FinalProject",
         "Exercises/Exercise8",
+        "Exercises/Exercise5",
         "Exercises/Exercise4",
         "Exercises/Exercise3",
         "Exercises/Exercise2",
         "Exercises/Exercise1",
-        "Exercises/Exercise5"
+        "Exercises/Exercise6"
     ]
     
 }
