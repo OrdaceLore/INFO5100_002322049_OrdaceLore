@@ -1,0 +1,63 @@
++-------------------+       +---------------------+
+|   ImageProcessor  |<------|ImageProcessorFactory|
++-------------------+       +---------------------+
+         ^                           ^
+         |                           |
+         |                           |
++-------------------+                |
+|AbstractImageProc. |                |
++-------------------+                |
+         ^                           |
+         |                           |
+    +----+----+                      |
+    |         |                      |
++-------------------+  +-------------------+
+|JavaImageIOProcessor|  |ImageMagickProcessor|
++-------------------+  +-------------------+
+
+                              +-------------------+
+                              |                   |
+                              |                   |
+                              |  MainController   |
+                              |                   |
+                              |                   |
+                              +-------------------+
+                                      |  |
+                                      |  |
+                                      |  |
+                     +----------------+  +----------------+
+                     |                                    |
+                     v                                    v
+           +-------------------+                +-------------------+
+           |   ProcessedImage  |                |   ImageProcessor  |
+           +-------------------+                +-------------------+
+
+LEGEND:
+------- implements
++----> creates
+|
+|----> has/uses
+
+
+CLASS HIERARCHY:
+
+ImageProcessor (Interface)
+ |
+ +-- AbstractImageProcessor (Abstract)
+      |
+      +-- JavaImageIOProcessor
+      |
+      +-- ImageMagickProcessor
+
+ProcessedImage
+  - originalFile
+  - thumbnailFile
+  - thumbnailImage
+  - metadata
+  - convertedFiles
+  - filteredFiles
+
+MainController
+  - UI Components
+  - imageProcessor
+  - processedImages 

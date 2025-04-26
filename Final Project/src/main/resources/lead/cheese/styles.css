@@ -1,0 +1,151 @@
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-background-color: #f4f4f4;
+}
+
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #3a7ac4;
+}
+
+.button:pressed {
+    -fx-background-color: #2a6ab4;
+}
+
+.button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #888888;
+}
+
+.titled-pane {
+    -fx-text-fill: #333333;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #e0e0e0;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f0f0f0;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+}
+
+.list-cell:selected {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+}
+
+/* Enhanced Image Preview Styling */
+.preview-image {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+    -fx-background-color: white;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+#imagePreviewContainer {
+    -fx-border-width: 1px;
+    -fx-border-color: #d0d0d0;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+    -fx-min-height: 350px;
+}
+
+#zoomSlider .track {
+    -fx-background-color: #e0e0e0;
+}
+
+#zoomSlider .thumb {
+    -fx-background-color: #4a90e2;
+}
+
+#zoomInButton, #zoomOutButton, #resetZoomButton {
+    -fx-padding: 4px 8px;
+    -fx-font-size: 14px;
+}
+
+#viewOriginalButton {
+    -fx-background-color: #5cb85c;
+}
+
+#convertButton {
+    -fx-background-color: #4a90e2;
+}
+
+#applyFilterButton {
+    -fx-background-color: #ff9800;
+}
+
+#downloadButton {
+    -fx-background-color: #5cb85c;
+}
+
+/* Image Properties Table Styling */
+#propertiesTableView {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+#propertiesTableView .table-row-cell {
+    -fx-background-color: transparent;
+}
+
+#propertiesTableView .table-row-cell:odd {
+    -fx-background-color: #f8f8f8;
+}
+
+#propertiesTableView .table-row-cell:selected {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #333333;
+}
+
+#propertyNameColumn {
+    -fx-font-weight: bold;
+}
+
+#propertyValueColumn {
+    -fx-wrap-text: true;
+} 
